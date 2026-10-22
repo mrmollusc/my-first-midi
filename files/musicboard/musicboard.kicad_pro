@@ -263,7 +263,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "duplicate_pins|1117600|914400|a5c01022-cd3f-4463-bc4c-9c5cd00a88a2|e745a04c-39e0-4e7c-9200-f9d588b21e9a|/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b|/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b|/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -665,7 +670,7 @@
         "uuid": "6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
       }
     ],
-    "used_designators": "#PWR1-10,C1-14,D1-29,ESP32_S1,J1,R1,SW1-16,U1",
+    "used_designators": "#FLG1-2,#PWR1-14,C1-28,D1-41,ESP32_S1,J1-2,N13-28,R1,SW1-30,U1",
     "variants": []
   },
   "sheets": [
