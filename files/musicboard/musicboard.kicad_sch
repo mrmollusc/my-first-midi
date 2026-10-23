@@ -1685,7 +1685,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Ferrite_Small"
+		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1699,7 +1699,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
-				(at 1.27 1.016 0)
+				(at 0.762 1.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1709,8 +1709,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "L_Ferrite_Small"
-				(at 1.27 -1.27 0)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1742,7 +1742,7 @@
 					)
 				)
 			)
-			(property "Description" "Inductor with ferrite core, small symbol"
+			(property "Description" "Inductor, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1775,7 +1775,7 @@
 					)
 				)
 			)
-			(symbol "L_Ferrite_Small_0_1"
+			(symbol "L_Small_0_1"
 				(arc
 					(start 0 2.032)
 					(mid 0.5058 1.524)
@@ -1824,200 +1824,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 1.651) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.143) (xy 0.762 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.635) (xy 0.762 0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.127) (xy 0.762 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.381) (xy 0.762 -0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.889) (xy 0.762 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.397) (xy 0.762 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.905) (xy 1.016 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.397) (xy 1.016 1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.889) (xy 1.016 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.381) (xy 1.016 0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.127) (xy 1.016 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.635) (xy 1.016 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.143) (xy 1.016 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.651) (xy 1.016 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "L_Ferrite_Small_1_1"
+			(symbol "L_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.508)
@@ -2823,7 +2631,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:NeoPixel_THT"
+		(symbol "LED:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2843,7 +2651,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "NeoPixel_THT"
+			(property "Value" "SK6812MINI-E"
 				(at 1.27 -5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2854,7 +2662,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2866,7 +2674,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
 				(at 2.54 -9.525 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2878,7 +2686,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(property "Description" "RGB LED with integrated controller"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2900,7 +2708,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED*D5.0mm* LED*D8.0mm*"
+			(property "ki_fp_filters" "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2911,7 +2719,7 @@
 					)
 				)
 			)
-			(symbol "NeoPixel_THT_0_0"
+			(symbol "SK6812MINI-E_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -2921,7 +2729,7 @@
 					)
 				)
 			)
-			(symbol "NeoPixel_THT_0_1"
+			(symbol "SK6812MINI-E_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -3018,11 +2826,11 @@
 					)
 				)
 			)
-			(symbol "NeoPixel_THT_1_1"
-				(pin output line
-					(at 7.62 0 180)
+			(symbol "SK6812MINI-E_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "DOUT"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3037,10 +2845,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "GND"
+					(name "DIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3073,10 +2881,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "DIN"
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4730,28 +4538,16 @@
 		(uuid "002c415d-9090-42e3-93db-6b2468738b23")
 	)
 	(junction
-		(at 92.71 48.26)
+		(at 260.35 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01e185b7-a7e8-4b78-ad73-14a6cebff280")
+		(uuid "0170f41b-633f-4b12-a79c-c17c5bdb5a31")
 	)
 	(junction
-		(at 184.15 48.26)
+		(at 184.15 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "034615e7-9239-45ac-8163-bc306e502c33")
-	)
-	(junction
-		(at 367.03 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "036abd50-d0c6-4262-868c-73b881e4a30b")
-	)
-	(junction
-		(at 382.27 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0492a89f-30fe-43d3-bd86-ba32583df361")
+		(uuid "04002a80-8a33-4199-87e3-dcef442cd91b")
 	)
 	(junction
 		(at 130.81 33.02)
@@ -4778,6 +4574,18 @@
 		(uuid "0a26c375-aef4-4773-97a9-a307e181ad84")
 	)
 	(junction
+		(at 77.47 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c699bb5-06cd-4431-b9d6-f48e4fc20263")
+	)
+	(junction
+		(at 427.99 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ef680b0-4005-4f71-864f-303e200dd80e")
+	)
+	(junction
 		(at 248.92 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4790,16 +4598,16 @@
 		(uuid "1016031f-75c0-425a-8b69-8ffda5051ad7")
 	)
 	(junction
-		(at 214.63 33.02)
+		(at 351.79 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "14d569f4-444f-48eb-a643-e477dcf4dd71")
+		(uuid "120e16cb-f663-4366-9dbf-bf9522b896e0")
 	)
 	(junction
-		(at 367.03 48.26)
+		(at 275.59 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "14ff3263-5046-4629-b52b-cee6582706fb")
+		(uuid "1335f00d-ee30-42b1-a216-1fb9de96d7fd")
 	)
 	(junction
 		(at 218.44 68.58)
@@ -4812,18 +4620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bd57bd1-8b96-496e-95c4-34f5de13d92a")
-	)
-	(junction
-		(at 397.51 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1da37f4e-0a15-499f-9746-175fb99d58ad")
-	)
-	(junction
-		(at 290.83 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1de9622e-ac08-4918-94f9-50e463e70a64")
 	)
 	(junction
 		(at 170.18 71.12)
@@ -4850,10 +4646,16 @@
 		(uuid "25641c14-97f2-4254-9bfa-8f6a893155e6")
 	)
 	(junction
-		(at 168.91 33.02)
+		(at 214.63 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a2b096a-6538-4e9b-8a32-f5ca7af8847c")
+		(uuid "27f4ac4b-7db9-484c-93e5-b3527c481cab")
+	)
+	(junction
+		(at 107.95 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b0edce-6c61-4e18-9778-e8645254d4c3")
 	)
 	(junction
 		(at 248.92 81.28)
@@ -4868,22 +4670,16 @@
 		(uuid "2ca3bba0-8f3a-42ee-9872-9b5aad722bde")
 	)
 	(junction
-		(at 184.15 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d04fb05-3941-4f4d-b6fc-b2929e311b3a")
-	)
-	(junction
-		(at 336.55 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e98fbc4-5e58-45cc-96b8-0cb9fe82129d")
-	)
-	(junction
 		(at 25.4 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3032bf81-4d34-416e-8011-2c79e50007d0")
+	)
+	(junction
+		(at 62.23 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3089bdec-1ddf-498c-bfcd-75f741cc74b4")
 	)
 	(junction
 		(at 191.77 33.02)
@@ -4892,28 +4688,10 @@
 		(uuid "3396f6e0-e718-4657-adf8-7278691ec691")
 	)
 	(junction
-		(at 306.07 48.26)
+		(at 184.15 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3439dc9b-c467-49f3-b92e-0b792596ebf6")
-	)
-	(junction
-		(at 351.79 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35f2b6c7-8999-4523-9245-5092131280ec")
-	)
-	(junction
-		(at 275.59 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36c00d26-b5a9-4777-a207-e70c060e87ae")
-	)
-	(junction
-		(at 199.39 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3714c845-1235-4721-904c-68707c8b2647")
+		(uuid "346c1344-6fdc-40a0-bc46-a0bf7015b410")
 	)
 	(junction
 		(at 299.72 48.26)
@@ -4946,10 +4724,10 @@
 		(uuid "3e493853-0739-4088-904e-8e9dc29179ad")
 	)
 	(junction
-		(at 245.11 33.02)
+		(at 367.03 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40a2754a-bcdc-4aeb-bdb5-b36ad719bc37")
+		(uuid "40558347-8511-47d2-9094-60837273b406")
 	)
 	(junction
 		(at 389.89 33.02)
@@ -4962,6 +4740,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45855a50-c627-419f-bb62-775f953a4021")
+	)
+	(junction
+		(at 153.67 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45a5b7d0-2b50-4a2b-97c1-eb0e3bdbc85d")
+	)
+	(junction
+		(at 199.39 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4609de7f-0202-4160-b611-6a5a884e660e")
 	)
 	(junction
 		(at 233.68 81.28)
@@ -4982,16 +4772,10 @@
 		(uuid "4b5df725-543b-4e99-8632-e6ca846193dd")
 	)
 	(junction
-		(at 260.35 48.26)
+		(at 245.11 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4e5febcc-a62d-4a2e-b047-2e972e27bf42")
-	)
-	(junction
-		(at 153.67 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51f47f1b-4832-4b85-91d2-d608075c0680")
+		(uuid "4f6964c5-7073-4b3d-8905-48a78c9ba0b6")
 	)
 	(junction
 		(at 405.13 33.02)
@@ -5018,16 +4802,10 @@
 		(uuid "56666311-e82e-467c-9407-8b22ea0b9471")
 	)
 	(junction
-		(at 260.35 33.02)
+		(at 306.07 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5987c64c-ae4f-4e4b-9163-f11f78bb752d")
-	)
-	(junction
-		(at 107.95 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ac63a97-6076-4e36-9e65-38724c999a48")
+		(uuid "5ac6feac-24bd-450a-a20c-4ad55893cac9")
 	)
 	(junction
 		(at 313.69 33.02)
@@ -5036,10 +4814,10 @@
 		(uuid "5c2d764f-978d-473a-856e-19bce885f88b")
 	)
 	(junction
-		(at 31.75 33.02)
+		(at 382.27 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e76242a-d29d-4dee-b95d-1978385209d0")
+		(uuid "5e9fdfb6-3c0d-4755-a3c4-62c8a6b9264c")
 	)
 	(junction
 		(at 328.93 33.02)
@@ -5048,16 +4826,28 @@
 		(uuid "5edc1cb4-acbf-4336-aece-ff2560b1ba79")
 	)
 	(junction
-		(at 168.91 48.26)
+		(at 46.99 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f059af7-63b3-439b-983d-c0cfa4631de9")
+		(uuid "5f76cc81-ca37-48dc-9e78-c7b71c7dae2d")
+	)
+	(junction
+		(at 199.39 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61de73c0-3a2d-4e12-9a25-e3936938316c")
 	)
 	(junction
 		(at 162.56 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65a46c69-8627-42d8-920e-e406efd38893")
+	)
+	(junction
+		(at 397.51 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66b2d834-34c5-4885-a8c1-79e7211b78cc")
 	)
 	(junction
 		(at 38.1 90.17)
@@ -5078,12 +4868,6 @@
 		(uuid "6d83511c-31d9-490a-88b9-d7bc30b01020")
 	)
 	(junction
-		(at 290.83 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e22aff5-f314-4dae-8862-e9075b578594")
-	)
-	(junction
 		(at 237.49 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5093,19 +4877,7 @@
 		(at 214.63 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70f4628f-dfb5-4974-9b53-c0d5f8347050")
-	)
-	(junction
-		(at 427.99 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70f4c294-c62c-47b1-85b7-6a4d37973b9e")
-	)
-	(junction
-		(at 123.19 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73dec400-3ac2-4f5c-bf08-d63092dfd7ad")
+		(uuid "708ec0e1-3fed-4871-99fe-d290341419e1")
 	)
 	(junction
 		(at 146.05 33.02)
@@ -5114,10 +4886,16 @@
 		(uuid "74defb23-5d91-4736-afa6-33f8bb61449e")
 	)
 	(junction
-		(at 427.99 48.26)
+		(at 336.55 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b9c0056-0b35-4636-9e16-8e1e3d94ef53")
+		(uuid "7acfe0a2-8dd9-4c4c-aa50-db7a3f8588e0")
+	)
+	(junction
+		(at 412.75 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eec0d1b-bf26-4335-bef5-272c9110c75c")
 	)
 	(junction
 		(at 374.65 33.02)
@@ -5126,10 +4904,10 @@
 		(uuid "7fee392e-ef97-42bd-bd44-d2e5fe92d78b")
 	)
 	(junction
-		(at 62.23 33.02)
+		(at 92.71 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "836c512d-461c-495e-8c91-f85be519615f")
+		(uuid "83e621c1-d42f-4ee1-9313-2d0f3b770a11")
 	)
 	(junction
 		(at 218.44 81.28)
@@ -5144,6 +4922,12 @@
 		(uuid "86902daa-7423-4e59-b867-ffaf09bbd712")
 	)
 	(junction
+		(at 62.23 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "872cd5c8-3962-49c9-91a2-f519fd0680b7")
+	)
+	(junction
 		(at 330.2 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5156,16 +4940,10 @@
 		(uuid "89fd1b69-a02f-44b5-829e-0326c08c8014")
 	)
 	(junction
-		(at 138.43 33.02)
+		(at 351.79 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a43787f-a79a-4d9b-9060-f58bd0de7942")
-	)
-	(junction
-		(at 412.75 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f20637e-29eb-46b8-80a2-35649dcd1c52")
+		(uuid "8a7384ba-9ccc-4187-9f2f-2306d20ff8cd")
 	)
 	(junction
 		(at 39.37 33.02)
@@ -5192,10 +4970,40 @@
 		(uuid "93a70176-d2a7-46a4-a03c-918d9131e0ef")
 	)
 	(junction
+		(at 138.43 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9406cca8-61d1-4a79-9ec1-8bdc6a4d23bc")
+	)
+	(junction
+		(at 336.55 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b97c3a-0641-422b-aa9d-7f8e8d52329c")
+	)
+	(junction
 		(at 69.85 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95cfcf21-9dd6-451b-869f-3e8893e2dd3a")
+	)
+	(junction
+		(at 31.75 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96fdb82f-6caa-47ed-990c-2eee0dd0e38b")
+	)
+	(junction
+		(at 275.59 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97598a13-f0db-4d94-a4d9-2e9c82c2a9dd")
+	)
+	(junction
+		(at 260.35 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97d9d00e-d328-4e19-b078-d31cebb7a696")
 	)
 	(junction
 		(at 218.44 132.08)
@@ -5222,10 +5030,10 @@
 		(uuid "9eeabed7-721f-447e-9599-a0067c706352")
 	)
 	(junction
-		(at 336.55 48.26)
+		(at 107.95 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a273ddd0-e1fe-4c57-b591-abba611ec58a")
+		(uuid "9f1b5306-7057-4a09-aa51-ad3e8b7fb613")
 	)
 	(junction
 		(at 254 48.26)
@@ -5252,16 +5060,22 @@
 		(uuid "a4b43fb0-716b-4b52-9cdd-3a2d6938ee52")
 	)
 	(junction
-		(at 245.11 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5fa56dd-4f04-4be4-8531-2603c5fe114f")
-	)
-	(junction
 		(at 344.17 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aaeba4ea-ac32-4d13-8c26-c172c432cf7b")
+	)
+	(junction
+		(at 123.19 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac41ca48-316b-4ff2-b9be-0e2ab8071ca2")
+	)
+	(junction
+		(at 31.75 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad15ae2a-c9bf-40c1-8d8e-de83c4ad7b51")
 	)
 	(junction
 		(at 40.64 48.26)
@@ -5270,10 +5084,22 @@
 		(uuid "af4e6c13-ea4d-44c4-8b10-819cb66875a7")
 	)
 	(junction
+		(at 245.11 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a7f02d-c44b-4c6f-9d0f-afaa2ecf68fe")
+	)
+	(junction
 		(at 248.92 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2637582-c3b9-49a4-9b8f-bfdbe6ec48e2")
+	)
+	(junction
+		(at 290.83 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b321e5da-d666-4c45-a0fb-4394c5c65f62")
 	)
 	(junction
 		(at 314.96 48.26)
@@ -5282,28 +5108,28 @@
 		(uuid "b337df16-61ab-4af2-b9e1-56f2f29e24b3")
 	)
 	(junction
+		(at 153.67 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b87ca007-1437-41d6-83e5-d6613c6652a3")
+	)
+	(junction
 		(at 269.24 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9dab5a9-a516-46bb-a6b6-abbd40659b5a")
 	)
 	(junction
-		(at 397.51 48.26)
+		(at 138.43 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb56a771-6ebc-4a6c-ade1-8bc837d362f0")
+		(uuid "bdaf4ba5-3940-402c-9632-9f8397a1fc35")
 	)
 	(junction
-		(at 138.43 48.26)
+		(at 321.31 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc369511-e3ed-4e2f-93f1-9414a9f75c18")
-	)
-	(junction
-		(at 306.07 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcf7685c-b12e-4106-8e47-e2dc62caefae")
+		(uuid "be27c034-5300-4cc5-a300-c62f0baf6a8d")
 	)
 	(junction
 		(at 359.41 33.02)
@@ -5318,28 +5144,22 @@
 		(uuid "c26e1108-73c6-40ee-bac0-f60fd24f1572")
 	)
 	(junction
+		(at 123.19 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a162a4-2501-435c-97d7-a242778d03aa")
+	)
+	(junction
+		(at 168.91 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4022f79-457d-442c-9c60-7fd977a73d4b")
+	)
+	(junction
 		(at 193.04 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c414d9c9-8436-4861-8f0e-39588eaf29c4")
-	)
-	(junction
-		(at 92.71 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c548dd11-40f5-4c4c-9c4c-c98021047581")
-	)
-	(junction
-		(at 382.27 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c63397ab-0575-41cc-bfd6-94667328a994")
-	)
-	(junction
-		(at 31.75 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6668cd4-75d6-4a17-ad8c-43ba2dccba07")
 	)
 	(junction
 		(at 161.29 33.02)
@@ -5360,16 +5180,16 @@
 		(uuid "cbdeb337-cb7b-4dbc-a4c0-71dac36ca597")
 	)
 	(junction
-		(at 412.75 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbf23bee-948f-426c-a201-54c7e7e82906")
-	)
-	(junction
 		(at 115.57 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc36ce9d-fe33-4ac3-a812-1a128db8e025")
+	)
+	(junction
+		(at 382.27 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd07793e-46ef-4360-b5d1-e978eb2dbec7")
 	)
 	(junction
 		(at 233.68 93.98)
@@ -5390,34 +5210,22 @@
 		(uuid "d2eb0af9-1577-4630-a5fe-2fd411af9195")
 	)
 	(junction
+		(at 229.87 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d303fd95-7f32-4c2b-8acd-9853be7c1201")
+	)
+	(junction
 		(at 252.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d319680e-8535-49df-93ca-bfe98340f68f")
 	)
 	(junction
-		(at 229.87 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6b140f0-7766-4bf5-b58d-f37b0bd0beb8")
-	)
-	(junction
 		(at 111.76 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d793fe2e-89be-4a1e-b101-e02e1af7952b")
-	)
-	(junction
-		(at 77.47 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d81c0a12-2e0f-451f-bad5-7b8d6113e49c")
-	)
-	(junction
-		(at 321.31 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9a3843a-b4fc-4a48-b2ed-2142d9d3dcbd")
 	)
 	(junction
 		(at 233.68 68.58)
@@ -5432,22 +5240,46 @@
 		(uuid "da6b3e8f-a5dc-4993-bc5c-23a99825d194")
 	)
 	(junction
-		(at 46.99 33.02)
+		(at 229.87 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e22eec7e-14bb-438d-9224-f8ea16e5a192")
+		(uuid "daccddaa-84b0-4025-87fc-19a44476d86d")
 	)
 	(junction
-		(at 199.39 33.02)
+		(at 290.83 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e24263b2-55e0-4a9a-829d-2dc72fcf58cb")
+		(uuid "dcee31c1-329e-4d0a-86e0-da83d2675520")
+	)
+	(junction
+		(at 306.07 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd1f96ac-8642-4ef3-8f97-908cf292db2a")
+	)
+	(junction
+		(at 321.31 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfbd8dac-f397-4a11-8da6-d3f913a93e77")
+	)
+	(junction
+		(at 367.03 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0df71f2-1702-45c2-9688-da9a4601f8b6")
 	)
 	(junction
 		(at 116.84 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3ef1910-a133-47be-aeda-859d876f3e48")
+	)
+	(junction
+		(at 46.99 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e44fc8b0-d206-4f83-9fe1-854f0f6df931")
 	)
 	(junction
 		(at 391.16 48.26)
@@ -5462,16 +5294,10 @@
 		(uuid "e5ef8095-ca20-4592-948b-baaeaac90e81")
 	)
 	(junction
-		(at 46.99 48.26)
+		(at 397.51 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e68fdb30-c329-4129-88c8-e0a44cd7520c")
-	)
-	(junction
-		(at 275.59 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9fa092c-4833-41fa-bec5-6b0279e7944d")
+		(uuid "ea0edfed-bd26-4bf9-b981-8d76a81c7ee7")
 	)
 	(junction
 		(at 177.8 48.26)
@@ -5522,28 +5348,10 @@
 		(uuid "f4b8cc10-750c-467f-953b-e3a52506f115")
 	)
 	(junction
-		(at 123.19 33.02)
+		(at 77.47 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5b5aa81-32ee-495c-8b74-127c5992bf79")
-	)
-	(junction
-		(at 351.79 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5fc98ff-dbab-439d-a39c-6a0a56f7a0ac")
-	)
-	(junction
-		(at 321.31 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f69fa8dc-b67a-41d0-82dd-13875eaec76a")
-	)
-	(junction
-		(at 229.87 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6c1d62c-5633-488d-b4fa-ee94ce5220a4")
+		(uuid "f65ccb15-ca4e-4e5c-99ae-30f8b0ba6e75")
 	)
 	(junction
 		(at 58.42 130.81)
@@ -5552,28 +5360,28 @@
 		(uuid "f96b071f-f946-4a3a-b0cb-8af5539b3ae0")
 	)
 	(junction
-		(at 77.47 33.02)
+		(at 168.91 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f9dbb9d5-aae6-4bce-b234-0ed7f42e20c3")
+		(uuid "fd22f227-e558-4340-9d83-788af4c2d0ab")
 	)
 	(junction
-		(at 153.67 33.02)
+		(at 92.71 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc0e4a0b-c5b3-465b-9cba-fdec3c91a5ec")
+		(uuid "fdcb03c8-3cd0-4d7f-9289-696a1107df87")
 	)
 	(junction
-		(at 62.23 48.26)
+		(at 427.99 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc38d392-d755-49fc-99ec-a2c85647bbcd")
+		(uuid "fe452f58-7beb-41cf-9005-51b8db2c0056")
 	)
 	(junction
-		(at 107.95 48.26)
+		(at 412.75 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ffeb47c9-aee8-4f55-a2b4-230cdc56c45b")
+		(uuid "fece57e5-5091-4b2d-9249-e3c18b7e6327")
 	)
 	(no_connect
 		(at 54.61 160.02)
@@ -5617,17 +5425,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 48.26) (xy 245.11 48.26)
+			(xy 397.51 48.26) (xy 412.75 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00c9bf85-1af6-48a6-a4ee-3d176d46da66")
+		(uuid "0108c40e-e19e-49c2-8c48-1d2cb742fc75")
 	)
 	(wire
 		(pts
-			(xy 397.51 48.26) (xy 412.75 48.26)
+			(xy 223.52 48.26) (xy 229.87 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5667,13 +5475,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 33.02) (xy 168.91 33.02)
+			(xy 214.63 48.26) (xy 223.52 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "051e986c-f5b4-4b97-9610-731909299e82")
+		(uuid "0260099f-fcaf-43e5-8ca9-ac3cd89de85d")
+	)
+	(wire
+		(pts
+			(xy 290.83 33.02) (xy 306.07 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05995fbb-d66c-4e5e-939c-abd5acbb1892")
 	)
 	(wire
 		(pts
@@ -5697,13 +5515,13 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 33.02) (xy 427.99 33.02)
+			(xy 138.43 33.02) (xy 153.67 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0817bd54-a09e-44ba-aa53-aecf8924ccec")
+		(uuid "07f18135-39bc-453f-81c0-a6bcc33b2ff8")
 	)
 	(wire
 		(pts
@@ -5724,16 +5542,6 @@
 			(type default)
 		)
 		(uuid "0a4717fc-9440-4a64-8cff-14374ed918c3")
-	)
-	(wire
-		(pts
-			(xy 336.55 48.26) (xy 351.79 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf07fdc-c4a6-4a70-ac23-78c8d95391d1")
 	)
 	(wire
 		(pts
@@ -5777,16 +5585,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 46.99 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135b7d6c-9764-4106-82ba-1a3127e37729")
-	)
-	(wire
-		(pts
 			(xy 330.2 39.37) (xy 330.2 48.26)
 		)
 		(stroke
@@ -5794,16 +5592,6 @@
 			(type default)
 		)
 		(uuid "13ffed00-f29f-4a46-872a-1a6275dbfbb0")
-	)
-	(wire
-		(pts
-			(xy 77.47 48.26) (xy 92.71 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1677b290-f9e4-4719-a4ce-49fa4f11d575")
 	)
 	(wire
 		(pts
@@ -5847,13 +5635,13 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 33.02) (xy 336.55 33.02)
+			(xy 412.75 33.02) (xy 427.99 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ae6673f-8e60-4499-bf08-cca430931325")
+		(uuid "1ad37357-3b8f-4042-a6bf-637fd705fbba")
 	)
 	(wire
 		(pts
@@ -5864,26 +5652,6 @@
 			(type default)
 		)
 		(uuid "1bae5904-4f6f-4fce-95a0-5d3102f29606")
-	)
-	(wire
-		(pts
-			(xy 275.59 48.26) (xy 290.83 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c289ff1-3eb6-4575-abf2-9e86e526f8e3")
-	)
-	(wire
-		(pts
-			(xy 223.52 48.26) (xy 229.87 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c4ecf8a-ac73-459f-b068-309d1e8db3a3")
 	)
 	(wire
 		(pts
@@ -5907,23 +5675,13 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 33.02) (xy 290.83 33.02)
+			(xy 306.07 48.26) (xy 321.31 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f258e7c-4b89-40d7-8001-2f658242dab0")
-	)
-	(wire
-		(pts
-			(xy 290.83 48.26) (xy 306.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f514211-18a0-4044-87f8-458fd3f60d09")
+		(uuid "1f498cfa-b1c4-4cbe-9020-365d7289bfd3")
 	)
 	(wire
 		(pts
@@ -5957,26 +5715,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 33.02) (xy 321.31 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f3bbc0-6deb-4282-9aaa-6efea4fd070e")
-	)
-	(wire
-		(pts
-			(xy 184.15 33.02) (xy 199.39 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2425a34f-6462-4bba-8c71-713a738b4b53")
-	)
-	(wire
-		(pts
 			(xy 146.05 39.37) (xy 147.32 39.37)
 		)
 		(stroke
@@ -5984,6 +5722,16 @@
 			(type default)
 		)
 		(uuid "24e60314-a913-4417-9533-901651e2eb8a")
+	)
+	(wire
+		(pts
+			(xy 62.23 48.26) (xy 77.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f4ed64-7ecd-4bd4-8c96-6c31a14db7cb")
 	)
 	(wire
 		(pts
@@ -6007,6 +5755,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 33.02) (xy 184.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e7ba5b-9f16-4a27-89a2-3e98c8cebaa4")
+	)
+	(wire
+		(pts
 			(xy 314.96 39.37) (xy 314.96 48.26)
 		)
 		(stroke
@@ -6014,26 +5772,6 @@
 			(type default)
 		)
 		(uuid "27c1a1ae-832f-49ef-b162-fa1cf5951531")
-	)
-	(wire
-		(pts
-			(xy 382.27 48.26) (xy 397.51 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28888c0a-8e6c-4fa2-b7a9-c2a2e30c8470")
-	)
-	(wire
-		(pts
-			(xy 229.87 33.02) (xy 245.11 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28cef929-0dab-4f92-b497-3d463d38920b")
 	)
 	(wire
 		(pts
@@ -6057,17 +5795,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 33.02) (xy 382.27 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d3b92ba-32bd-408a-bf5e-33307c282d59")
-	)
-	(wire
-		(pts
-			(xy 199.39 48.26) (xy 208.28 48.26)
+			(xy 40.64 48.26) (xy 46.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6094,6 +5822,36 @@
 			(type default)
 		)
 		(uuid "30237945-e799-47be-96a6-6b15a53917a3")
+	)
+	(wire
+		(pts
+			(xy 123.19 33.02) (xy 138.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309b3dce-081e-401c-b33a-b97c299da15d")
+	)
+	(wire
+		(pts
+			(xy 92.71 33.02) (xy 107.95 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bb4f1c-ceca-4d93-bf14-876391ca614f")
+	)
+	(wire
+		(pts
+			(xy 46.99 48.26) (xy 62.23 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31225047-27d2-4dc6-a342-6eea049ded19")
 	)
 	(wire
 		(pts
@@ -6127,6 +5885,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 48.26) (xy 306.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34050933-1f34-415f-9494-25fa6b728487")
+	)
+	(wire
+		(pts
 			(xy 254 39.37) (xy 254 48.26)
 		)
 		(stroke
@@ -6147,13 +5915,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 33.02) (xy 153.67 33.02)
+			(xy 214.63 33.02) (xy 222.25 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3952dd9b-aeca-4cf1-a38d-38f45aa38af6")
+		(uuid "3a73006f-6b0b-4e11-a56c-3d0355700981")
 	)
 	(wire
 		(pts
@@ -6174,6 +5942,16 @@
 			(type default)
 		)
 		(uuid "3be951fd-9247-4680-8f57-be62ced053c4")
+	)
+	(wire
+		(pts
+			(xy 31.75 48.26) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c507c31-5f18-4a32-8685-d5fa06ce2ba6")
 	)
 	(wire
 		(pts
@@ -6227,6 +6005,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 33.02) (xy 321.31 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b688b0-34a4-457a-89fd-4234cd3c5386")
+	)
+	(wire
+		(pts
 			(xy 233.68 139.7) (xy 233.68 142.24)
 		)
 		(stroke
@@ -6237,6 +6025,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 33.02) (xy 245.11 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437fa68d-5bc8-4ace-aaa0-5abce3aee038")
+	)
+	(wire
+		(pts
 			(xy 54.61 39.37) (xy 55.88 39.37)
 		)
 		(stroke
@@ -6244,26 +6042,6 @@
 			(type default)
 		)
 		(uuid "444e2748-73ba-437b-9fa3-31d2c43655db")
-	)
-	(wire
-		(pts
-			(xy 21.59 33.02) (xy 31.75 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454ecb66-c278-4724-ae39-bd4cc2879694")
-	)
-	(wire
-		(pts
-			(xy 138.43 48.26) (xy 153.67 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "455a6819-c6fa-461d-a7c7-c370a85b40ed")
 	)
 	(wire
 		(pts
@@ -6347,6 +6125,26 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 33.02) (xy 260.35 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfb19fd-1591-4597-9e5c-fc8799607afc")
+	)
+	(wire
+		(pts
+			(xy 107.95 33.02) (xy 123.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d05ea2f-2494-4a33-98b3-a9a6b64b5c54")
+	)
+	(wire
+		(pts
 			(xy 359.41 38.1) (xy 359.41 39.37)
 		)
 		(stroke
@@ -6407,16 +6205,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 48.26) (xy 223.52 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50a7d4b1-fb6f-45f2-beee-5d4f467002b4")
-	)
-	(wire
-		(pts
 			(xy 421.64 39.37) (xy 421.64 48.26)
 		)
 		(stroke
@@ -6437,6 +6225,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 33.02) (xy 168.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540c2ce9-6604-46a7-bc32-ed26b7b32d12")
+	)
+	(wire
+		(pts
 			(xy 248.92 161.29) (xy 248.92 163.83)
 		)
 		(stroke
@@ -6447,27 +6245,17 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 48.26) (xy 382.27 48.26)
+			(xy 351.79 33.02) (xy 367.03 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54d80f49-fd59-4098-82bb-b0e931e95b34")
+		(uuid "5519b6c1-7e44-48ab-9587-5159b1297542")
 	)
 	(wire
 		(pts
-			(xy 107.95 33.02) (xy 123.19 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "561a9ff3-1db3-4bd2-ade5-df431b05cd59")
-	)
-	(wire
-		(pts
-			(xy 199.39 33.02) (xy 207.01 33.02)
+			(xy 39.37 33.02) (xy 46.99 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6477,7 +6265,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 33.02) (xy 39.37 33.02)
+			(xy 21.59 33.02) (xy 31.75 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6494,16 +6282,6 @@
 			(type default)
 		)
 		(uuid "57bccd81-5213-49ee-8ed1-e38ebfe69a60")
-	)
-	(wire
-		(pts
-			(xy 40.64 48.26) (xy 46.99 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dad1904-c330-4890-9d41-1acf5dfaddd2")
 	)
 	(wire
 		(pts
@@ -6537,7 +6315,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 33.02) (xy 412.75 33.02)
+			(xy 222.25 33.02) (xy 229.87 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6557,6 +6335,26 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 33.02) (xy 207.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640214da-6e6d-46f3-819a-e5342d37e80c")
+	)
+	(wire
+		(pts
+			(xy 367.03 48.26) (xy 382.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671758af-ce51-483c-9537-2445d74b2bf7")
+	)
+	(wire
+		(pts
 			(xy 248.92 139.7) (xy 248.92 142.24)
 		)
 		(stroke
@@ -6564,26 +6362,6 @@
 			(type default)
 		)
 		(uuid "69df157e-9cd0-403b-83d8-a10c2b0723c8")
-	)
-	(wire
-		(pts
-			(xy 290.83 33.02) (xy 306.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2f4319-1003-4876-b845-18dfc7c609ba")
-	)
-	(wire
-		(pts
-			(xy 222.25 33.02) (xy 229.87 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a56e9f5-a93d-41e0-bd14-0e830479482d")
 	)
 	(wire
 		(pts
@@ -6597,13 +6375,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 33.02) (xy 62.23 33.02)
+			(xy 229.87 48.26) (xy 245.11 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bc7a9aa-7e13-46ab-8ac3-9f2f94f7c9b1")
+		(uuid "6c50224b-7bc6-4629-8ef3-576f5ae51e73")
 	)
 	(wire
 		(pts
@@ -6617,13 +6395,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 48.26) (xy 199.39 48.26)
+			(xy 260.35 33.02) (xy 275.59 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f2a400b-4280-4223-b6ad-a470c01456b8")
+		(uuid "6f14e03b-0e08-4c2b-9e65-f73695a9efff")
 	)
 	(wire
 		(pts
@@ -6637,6 +6415,26 @@
 	)
 	(wire
 		(pts
+			(xy 412.75 48.26) (xy 427.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7b3183-d6b7-4fc0-bdd5-614756e78fcf")
+	)
+	(wire
+		(pts
+			(xy 382.27 33.02) (xy 397.51 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70153b6b-8ed7-469e-9b62-1fdd5be9c379")
+	)
+	(wire
+		(pts
 			(xy 359.41 39.37) (xy 360.68 39.37)
 		)
 		(stroke
@@ -6647,33 +6445,23 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 48.26) (xy 275.59 48.26)
+			(xy 199.39 48.26) (xy 208.28 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "726b65df-228c-4076-a56a-8935bb3b3feb")
+		(uuid "73848105-b625-4f1a-bbe3-ac4f158092ae")
 	)
 	(wire
 		(pts
-			(xy 427.99 33.02) (xy 443.23 33.02)
+			(xy 92.71 48.26) (xy 107.95 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "726cd55d-8151-408d-ae88-9b33192d2612")
-	)
-	(wire
-		(pts
-			(xy 260.35 33.02) (xy 275.59 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e0abd7-effb-4dd9-a528-39824c65fcfc")
+		(uuid "7569907f-81ab-4eb2-bb2a-9f0bee6ac852")
 	)
 	(wire
 		(pts
@@ -6707,13 +6495,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 33.02) (xy 92.71 33.02)
+			(xy 275.59 48.26) (xy 290.83 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75eb3583-e81d-46a2-8448-6426ce51494f")
+		(uuid "76db2d83-1daf-424d-8b41-5134147401bb")
+	)
+	(wire
+		(pts
+			(xy 77.47 48.26) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77542f6a-6d0b-4dd3-a047-69c5dbfd3aa7")
 	)
 	(wire
 		(pts
@@ -6727,23 +6525,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 33.02) (xy 77.47 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b455f6-1a61-4918-a016-447fc10141f1")
-	)
-	(wire
-		(pts
 			(xy 245.11 48.26) (xy 260.35 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79c1b60a-1b12-4979-8596-109f1d87103e")
+		(uuid "77c316dc-29e5-477a-8dce-b3adbf584bc6")
 	)
 	(wire
 		(pts
@@ -6767,6 +6555,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 33.02) (xy 92.71 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c287615-303a-43da-8f8f-22c134d14545")
+	)
+	(wire
+		(pts
 			(xy 100.33 39.37) (xy 101.6 39.37)
 		)
 		(stroke
@@ -6774,16 +6572,6 @@
 			(type default)
 		)
 		(uuid "7cbf7285-2466-4b11-9d15-4fb979d7b6ae")
-	)
-	(wire
-		(pts
-			(xy 123.19 33.02) (xy 138.43 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d32dc01-f57a-4871-8da7-0609576fb4bc")
 	)
 	(wire
 		(pts
@@ -6827,36 +6615,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 48.26) (xy 168.91 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8077f6de-4fda-4429-9163-2a783cebe0ea")
-	)
-	(wire
-		(pts
-			(xy 336.55 33.02) (xy 351.79 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80b32dfb-da60-4f01-b7c9-e98cd8f17809")
-	)
-	(wire
-		(pts
-			(xy 427.99 48.26) (xy 443.23 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "811ab4fe-af0d-4d96-9293-aaa302edd422")
-	)
-	(wire
-		(pts
 			(xy 208.28 81.28) (xy 218.44 81.28)
 		)
 		(stroke
@@ -6864,6 +6622,16 @@
 			(type default)
 		)
 		(uuid "816a53cf-856c-4a85-97c7-031921fb8f98")
+	)
+	(wire
+		(pts
+			(xy 382.27 48.26) (xy 397.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c4e908-bcaa-4f5e-977d-f0c6929975ed")
 	)
 	(wire
 		(pts
@@ -6887,6 +6655,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 33.02) (xy 351.79 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f3c36b-13b9-4363-9d32-f2d8edd5cd5d")
+	)
+	(wire
+		(pts
 			(xy 132.08 39.37) (xy 132.08 48.26)
 		)
 		(stroke
@@ -6897,13 +6675,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 33.02) (xy 214.63 33.02)
+			(xy 62.23 33.02) (xy 77.47 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "848b7de5-36c0-4b0c-9ead-8a4c5e7a7b4f")
+		(uuid "873d3538-64ac-4488-99e4-18a470995d7d")
 	)
 	(wire
 		(pts
@@ -6914,26 +6692,6 @@
 			(type default)
 		)
 		(uuid "882b5010-c07d-4195-8b23-dec13af8bea5")
-	)
-	(wire
-		(pts
-			(xy 107.95 48.26) (xy 123.19 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894cdce7-95a9-452f-8c82-637c00e9ed97")
-	)
-	(wire
-		(pts
-			(xy 62.23 48.26) (xy 77.47 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c11bb01-9cc3-4bad-ac37-4c4196ec3a1c")
 	)
 	(wire
 		(pts
@@ -6987,13 +6745,13 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 48.26) (xy 367.03 48.26)
+			(xy 184.15 48.26) (xy 199.39 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "928ba472-1418-45e2-befa-2d9f9f28930f")
+		(uuid "932e5a07-2d5c-46e9-a04c-cc685ee8f77a")
 	)
 	(wire
 		(pts
@@ -7014,6 +6772,26 @@
 			(type default)
 		)
 		(uuid "94076f83-757f-46bb-84ba-4a4b3c7c4eb5")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 168.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bd0663-2616-4989-ab68-513faaddd5a5")
+	)
+	(wire
+		(pts
+			(xy 336.55 48.26) (xy 351.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9739ff76-2f5a-45d2-9864-e25b0d39ad49")
 	)
 	(wire
 		(pts
@@ -7087,16 +6865,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 48.26) (xy 184.15 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0b636d1-d37f-4634-bc68-bb56edcac306")
-	)
-	(wire
-		(pts
 			(xy 55.88 39.37) (xy 55.88 48.26)
 		)
 		(stroke
@@ -7127,6 +6895,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 48.26) (xy 443.23 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6731fb1-0ed1-4749-939c-5b0f9f8e897a")
+	)
+	(wire
+		(pts
 			(xy 77.47 154.94) (xy 80.01 154.94)
 		)
 		(stroke
@@ -7134,16 +6912,6 @@
 			(type default)
 		)
 		(uuid "a6ed49ef-9876-4c0f-ad6c-58e8feae16e9")
-	)
-	(wire
-		(pts
-			(xy 382.27 33.02) (xy 397.51 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8114047-f002-43e3-a9c5-d28800d9fa40")
 	)
 	(wire
 		(pts
@@ -7164,16 +6932,6 @@
 			(type default)
 		)
 		(uuid "aa16acb3-557e-4810-8d73-bab6077fc037")
-	)
-	(wire
-		(pts
-			(xy 21.59 48.26) (xy 31.75 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab656a2e-fce7-4455-bbf0-2a61c3d60310")
 	)
 	(wire
 		(pts
@@ -7227,16 +6985,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 33.02) (xy 107.95 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d5aed7-16e4-4e11-bf3d-22a9873a0eea")
-	)
-	(wire
-		(pts
 			(xy 90.17 157.48) (xy 90.17 154.94)
 		)
 		(stroke
@@ -7277,6 +7025,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 48.26) (xy 184.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b865fe-8bd2-4511-a84a-946b89245c31")
+	)
+	(wire
+		(pts
+			(xy 184.15 33.02) (xy 199.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b410e8ac-f5a5-495e-b630-6a3411cfc8ff")
+	)
+	(wire
+		(pts
 			(xy 237.49 38.1) (xy 237.49 39.37)
 		)
 		(stroke
@@ -7294,6 +7062,16 @@
 			(type default)
 		)
 		(uuid "b443ed4d-ad22-4b64-9aa9-086263354e2b")
+	)
+	(wire
+		(pts
+			(xy 123.19 48.26) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b549eb0e-c423-4f4f-b826-5490cc7be264")
 	)
 	(wire
 		(pts
@@ -7317,6 +7095,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 33.02) (xy 336.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b660b4bf-8d17-4d5f-af93-61767bef530f")
+	)
+	(wire
+		(pts
 			(xy 77.47 148.59) (xy 77.47 152.4)
 		)
 		(stroke
@@ -7324,16 +7112,6 @@
 			(type default)
 		)
 		(uuid "b69a563d-1d3e-44f1-b07e-e96dff086229")
-	)
-	(wire
-		(pts
-			(xy 306.07 48.26) (xy 321.31 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b78b1e9e-0806-4095-bc51-8615f63929fb")
 	)
 	(wire
 		(pts
@@ -7347,16 +7125,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 48.26) (xy 336.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2e3438-711d-4644-8572-8dec6905cb60")
-	)
-	(wire
-		(pts
 			(xy 53.34 123.19) (xy 53.34 121.92)
 		)
 		(stroke
@@ -7367,16 +7135,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 33.02) (xy 260.35 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbed17b7-baf8-48c3-81f5-658255629a8f")
-	)
-	(wire
-		(pts
 			(xy 391.16 39.37) (xy 391.16 48.26)
 		)
 		(stroke
@@ -7384,6 +7142,16 @@
 			(type default)
 		)
 		(uuid "bc15a5dc-1f30-43a0-9e8b-05b0a3eeb7bd")
+	)
+	(wire
+		(pts
+			(xy 31.75 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda4f560-1aee-46de-80d7-f44b84c70807")
 	)
 	(wire
 		(pts
@@ -7487,6 +7255,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 33.02) (xy 290.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b454f6-e51b-4bdf-9e68-1be596506718")
+	)
+	(wire
+		(pts
 			(xy 248.92 114.3) (xy 248.92 116.84)
 		)
 		(stroke
@@ -7497,13 +7275,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 48.26) (xy 138.43 48.26)
+			(xy 260.35 48.26) (xy 275.59 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc6bec3f-e754-4e84-a43b-feba13a96c11")
+		(uuid "cad5649d-4062-4162-82ca-2254d68c9d66")
 	)
 	(wire
 		(pts
@@ -7517,13 +7295,13 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 33.02) (xy 367.03 33.02)
+			(xy 397.51 33.02) (xy 412.75 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce293f24-aee7-49cc-b26d-6259497a9756")
+		(uuid "d0a7738f-1967-4aca-b476-b56a4cf49e43")
 	)
 	(wire
 		(pts
@@ -7567,16 +7345,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 48.26) (xy 107.95 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5fe0d70-c8a5-42a7-9ac1-ad7e29c92dd6")
-	)
-	(wire
-		(pts
 			(xy 85.09 39.37) (xy 86.36 39.37)
 		)
 		(stroke
@@ -7597,6 +7365,26 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 48.26) (xy 367.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8174eb4-0288-4700-a781-48a9e55b802c")
+	)
+	(wire
+		(pts
+			(xy 367.03 33.02) (xy 382.27 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da602767-b9e2-4699-ae03-855a6cbe70c9")
+	)
+	(wire
+		(pts
 			(xy 115.57 39.37) (xy 116.84 39.37)
 		)
 		(stroke
@@ -7614,6 +7402,16 @@
 			(type default)
 		)
 		(uuid "dd33ead3-7372-43ea-931e-6f1eed8c0ecb")
+	)
+	(wire
+		(pts
+			(xy 321.31 48.26) (xy 336.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6d1dcc-12b7-4e27-8331-a7f08d617c0a")
 	)
 	(wire
 		(pts
@@ -7667,6 +7465,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 33.02) (xy 62.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e430a20b-cf4a-4311-a2b0-b69b486a836e")
+	)
+	(wire
+		(pts
+			(xy 107.95 48.26) (xy 123.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e455bbd2-7dd8-4fbf-83b8-f52cf6094994")
+	)
+	(wire
+		(pts
 			(xy 313.69 39.37) (xy 314.96 39.37)
 		)
 		(stroke
@@ -7674,16 +7492,6 @@
 			(type default)
 		)
 		(uuid "e4e0709c-832c-4f30-a7c5-460a6773deba")
-	)
-	(wire
-		(pts
-			(xy 46.99 48.26) (xy 62.23 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4fe2228-ee8b-4431-8a8b-0fbef2e4958b")
 	)
 	(wire
 		(pts
@@ -7727,6 +7535,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 33.02) (xy 443.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea626c46-6915-40ac-aa8d-caec322973bb")
+	)
+	(wire
+		(pts
 			(xy 77.47 162.56) (xy 77.47 173.99)
 		)
 		(stroke
@@ -7734,16 +7552,6 @@
 			(type default)
 		)
 		(uuid "ebc63983-22e0-420a-8d0a-c5eebc7c6c28")
-	)
-	(wire
-		(pts
-			(xy 412.75 48.26) (xy 427.99 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecda5bb8-a60f-4980-9b1e-42c2c9f1eeea")
 	)
 	(wire
 		(pts
@@ -7777,7 +7585,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 48.26) (xy 40.64 48.26)
+			(xy 21.59 48.26) (xy 31.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7807,7 +7615,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 33.02) (xy 222.25 33.02)
+			(xy 207.01 33.02) (xy 214.63 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7907,6 +7715,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 48.26) (xy 153.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf71a3f-a00e-4714-964a-58c99d80dd7b")
+	)
+	(wire
+		(pts
 			(xy 420.37 39.37) (xy 421.64 39.37)
 		)
 		(stroke
@@ -7944,16 +7762,6 @@
 			(type default)
 		)
 		(uuid "fd3c986f-4357-4719-95b3-9ab80429c2e5")
-	)
-	(wire
-		(pts
-			(xy 168.91 33.02) (xy 184.15 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde6243b-3593-4df9-b40c-9ec0c3b1be22")
 	)
 	(wire
 		(pts
@@ -8747,7 +8555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 228.6 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8875,7 +8683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
+		(lib_id "LED:SK6812MINI-E")
 		(at 260.35 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -8884,9 +8692,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "094714cb-6d59-4d62-8cc5-d4b507154526")
-		(property "Reference" "N16"
-			(at 260.35 52.324 0)
+		(fields_autoplaced yes)
+		(uuid "0748c08b-73e9-4f76-8dfd-913c16b1879c")
+		(property "Reference" "D45"
+			(at 274.32 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8895,8 +8704,8 @@
 				)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 260.096 54.102 0)
+		(property "Value" "SK6812MINI-E"
+			(at 274.32 36.7598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8905,7 +8714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 261.62 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8917,7 +8726,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
 			(at 262.89 50.165 0)
 			(hide yes)
 			(show_name no)
@@ -8929,7 +8738,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+		(property "Description" "RGB LED with integrated controller"
 			(at 260.35 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8940,22 +8749,286 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "09ec6b6c-1d18-4e7c-8a91-958fd53ee027")
-		)
 		(pin "3"
-			(uuid "c730b50c-a9f2-4405-aa6f-b68d1ff7b823")
-		)
-		(pin "2"
-			(uuid "c9b8b2ef-8710-407c-ba44-af6c13d0c34b")
+			(uuid "b0b00a15-e15e-4ba2-a49d-93fbc5dc6456")
 		)
 		(pin "4"
-			(uuid "435ab9da-9df9-404b-a048-7fa2aebe17cb")
+			(uuid "08249783-b69c-4c47-906b-8be96667fa06")
+		)
+		(pin "1"
+			(uuid "6293a208-f96e-4f62-98ad-e88d9654552c")
+		)
+		(pin "2"
+			(uuid "976df4f6-a733-4e7b-9a8a-f3f9a447f507")
 		)
 		(instances
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N16")
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 290.83 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a83608d-619f-4f35-8b28-e1a33dbcf7c0")
+		(property "Reference" "D47"
+			(at 304.8 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 304.8 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 292.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 293.37 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 290.83 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8635149d-6f04-447b-a9e8-a465f8713f77")
+		)
+		(pin "4"
+			(uuid "5c8d3f3b-1ffb-4d5a-a374-6381fbe2c072")
+		)
+		(pin "1"
+			(uuid "02541f72-9743-43a2-8f24-a5000f0aedef")
+		)
+		(pin "2"
+			(uuid "df1f542f-d308-4bb2-8e8f-e98ff9a3d094")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 107.95 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0adf011e-fa90-4898-951c-ee447ccdd7a4")
+		(property "Reference" "D35"
+			(at 121.92 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 121.92 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 109.22 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 110.49 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "115b73d8-bc8e-4f7e-a418-d3f1420e355b")
+		)
+		(pin "4"
+			(uuid "e2985a54-56c5-40d5-890d-454143bd0784")
+		)
+		(pin "1"
+			(uuid "b3087139-856f-48f6-8714-78752dda7f35")
+		)
+		(pin "2"
+			(uuid "630b559f-e8c8-4293-8465-a161bb730a5e")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 367.03 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c48e6d2-ca5d-4617-8546-e88a9a8e74af")
+		(property "Reference" "D52"
+			(at 381 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 381 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 368.3 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 369.57 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 367.03 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7d839d44-eac6-4f67-981b-01d8c558312d")
+		)
+		(pin "4"
+			(uuid "c3ba3a94-71a6-43b9-b827-246ab813c354")
+		)
+		(pin "1"
+			(uuid "8d29ab26-2dfb-4d0c-9f3a-852169a8bbd4")
+		)
+		(pin "2"
+			(uuid "1b9ca50a-121c-4b95-b0c3-428121d584c3")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -9067,8 +9140,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 184.15 40.64 0)
+		(lib_id "LED:SK6812MINI-E")
+		(at 168.91 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9076,9 +9149,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0ee441c0-f647-4db6-a0a2-098bcb222915")
-		(property "Reference" "N11"
-			(at 184.15 52.324 0)
+		(fields_autoplaced yes)
+		(uuid "0e9b28d0-cd51-45a1-8b8d-ab84d4592d1d")
+		(property "Reference" "D39"
+			(at 182.88 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9087,8 +9161,8 @@
 				)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 183.896 54.102 0)
+		(property "Value" "SK6812MINI-E"
+			(at 182.88 36.7598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9097,8 +9171,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.42 48.26 0)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 170.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,8 +9183,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 186.69 50.165 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 171.45 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,8 +9195,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 184.15 40.64 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,23 +9205,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "0d0bd7c5-c88b-4765-8a6f-12c1b2aa53ba")
 		)
 		(pin "3"
-			(uuid "2e984d14-0c2d-42a9-a683-4dafbf608930")
-		)
-		(pin "2"
-			(uuid "96c5bbf1-6212-4c54-8513-8cd779cd2c34")
+			(uuid "7efaa9d5-9139-44e6-8730-2025407ac89d")
 		)
 		(pin "4"
-			(uuid "a63d0766-7d8f-40cc-a4e0-61b0a6192167")
+			(uuid "13608f32-1b2d-47f4-aa69-ab768e5fd691")
+		)
+		(pin "1"
+			(uuid "1a56e9be-4eb6-4734-9f60-1244978daf7d")
+		)
+		(pin "2"
+			(uuid "4361c85c-3c48-4e1c-811d-d1a24d84e59d")
 		)
 		(instances
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N11")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -9185,7 +9259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IP5306-LC_INJOINIC_Price_In_Stock_LCSC_Electronics:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
 			(at 66.04 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9321,7 +9395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 313.69 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9403,7 +9477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 435.61 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9483,7 +9557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9826,7 +9900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
 			(at 58.42 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -9909,7 +9983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9989,7 +10063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10071,7 +10145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 194.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10120,93 +10194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 199.39 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "24af2f6f-285f-45b3-8fe0-a0fe39086a74")
-		(property "Reference" "N12"
-			(at 199.39 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 199.136 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 201.93 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 199.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a25039e-f268-49ab-8105-756700b73a48")
-		)
-		(pin "3"
-			(uuid "780aee74-b351-40b2-9dbd-de4869f6cb59")
-		)
-		(pin "2"
-			(uuid "7d9d33b4-6bb4-4f43-a109-4fa6b2f3b18e")
-		)
-		(pin "4"
-			(uuid "aef4b457-a4cf-4a4b-b5b1-59b61fe061e9")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 58.42 127 0)
 		(unit 1)
@@ -10240,7 +10227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 58.42 125.476 90)
 			(hide yes)
 			(show_name no)
@@ -10400,93 +10387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 92.71 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27727dee-cb92-4b47-91d5-475ef1fd637d")
-		(property "Reference" "N5"
-			(at 92.71 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 92.456 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 95.25 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 92.71 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46e63af1-c2c4-4e72-b612-a441e3e205fe")
-		)
-		(pin "3"
-			(uuid "c8fa1a35-7256-4f33-a3a3-6343a6ce259a")
-		)
-		(pin "2"
-			(uuid "d233e32c-890a-46f9-b407-3eac1676d33b")
-		)
-		(pin "4"
-			(uuid "7b46a711-2e4f-4e32-85e6-0ca7cc3017be")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 21.59 48.26 0)
 		(unit 1)
@@ -10598,7 +10498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 298.45 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10678,7 +10578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 259.08 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10727,93 +10627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 107.95 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a4f73f9-4666-4eab-9bb5-181ea820b816")
-		(property "Reference" "N6"
-			(at 107.95 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 107.696 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 110.49 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e27c1b73-97d4-4ae1-938a-3d560638fa91")
-		)
-		(pin "3"
-			(uuid "1922772a-f957-48d6-8285-de1c0100a9a6")
-		)
-		(pin "2"
-			(uuid "e7e7ff30-9c70-480c-9be7-a65e3910529e")
-		)
-		(pin "4"
-			(uuid "eb9c3d7c-db9b-4688-a359-36aeb444d6c7")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 243.84 91.44 0)
 		(unit 1)
@@ -10845,7 +10658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.84 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11032,7 +10845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 191.77 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11113,7 +10926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 170.18 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11162,6 +10975,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 46.99 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3489c71d-47ab-49e3-b8c7-99a2893a6069")
+		(property "Reference" "D15"
+			(at 60.96 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 60.96 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 48.26 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 49.53 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 46.99 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d69bf414-d593-4ed6-9f9e-9c8f8a96c8f4")
+		)
+		(pin "4"
+			(uuid "468531a2-753f-408b-ad5c-1ceed042cd29")
+		)
+		(pin "1"
+			(uuid "7412512d-59a8-40e8-9bc1-c46929bb5996")
+		)
+		(pin "2"
+			(uuid "23327d3b-5e50-4221-a270-83f0be39a5da")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 228.6 116.84 0)
 		(unit 1)
@@ -11193,7 +11094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 228.6 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11351,7 +11252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11400,93 +11301,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 321.31 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3de12f3b-ac81-4906-92cf-45ec775bb9ed")
-		(property "Reference" "N20"
-			(at 321.31 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 321.056 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 323.85 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 321.31 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2ed5c00-5d4c-4d86-a105-c77a3cb1cce3")
-		)
-		(pin "3"
-			(uuid "80714e91-a463-4799-854f-780d49d076c4")
-		)
-		(pin "2"
-			(uuid "49cfc586-c1c7-4201-ae96-479ca4af923a")
-		)
-		(pin "4"
-			(uuid "34557c7e-6dde-4832-9086-bc6d8d59be79")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 228.6 129.54 0)
 		(unit 1)
@@ -11518,7 +11332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 228.6 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11600,7 +11414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 374.65 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11649,6 +11463,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 138.43 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40bd9eac-a6b4-4a26-a598-267d77f2a53d")
+		(property "Reference" "D37"
+			(at 152.4 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 152.4 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 139.7 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 140.97 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 138.43 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0af6e5ab-9d34-4e0b-9341-273a401a4a23")
+		)
+		(pin "4"
+			(uuid "eba34a73-a5cd-4678-8c5f-005787adcf04")
+		)
+		(pin "1"
+			(uuid "f125d871-36dc-4065-a7e8-d2b9797cde5a")
+		)
+		(pin "2"
+			(uuid "65d0bca0-7883-4a32-a189-66c4efad4d2e")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 40.64 87.63 90)
 		(unit 1)
@@ -11680,7 +11582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11729,8 +11631,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 351.79 40.64 0)
+		(lib_id "LED:SK6812MINI-E")
+		(at 245.11 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11738,9 +11640,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "435c248e-61e9-48ff-9e09-0221c6fe9b18")
-		(property "Reference" "N22"
-			(at 351.79 52.324 0)
+		(fields_autoplaced yes)
+		(uuid "43d9a25b-c42b-4e64-85e5-e625588ef003")
+		(property "Reference" "D44"
+			(at 259.08 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11749,8 +11652,8 @@
 				)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 351.536 54.102 0)
+		(property "Value" "SK6812MINI-E"
+			(at 259.08 36.7598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11759,8 +11662,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 353.06 48.26 0)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 246.38 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11771,8 +11674,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 354.33 50.165 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 247.65 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11783,8 +11686,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 351.79 40.64 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 245.11 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11793,23 +11696,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "6c05171b-a26c-4e7d-b565-3535361ed423")
 		)
 		(pin "3"
-			(uuid "d73cf14a-44be-435c-8027-386834d44cc3")
-		)
-		(pin "2"
-			(uuid "1fcdbe67-60fd-416b-8a52-42f63805a040")
+			(uuid "0b492c43-edf1-40e3-8b9f-a0e0aad255d7")
 		)
 		(pin "4"
-			(uuid "828bb19f-1069-45ea-89ad-f84901b3c56a")
+			(uuid "4c3dd8f3-f2c7-4791-b097-a34e846e15d9")
+		)
+		(pin "1"
+			(uuid "2e9aba8e-4c8c-4f3a-9432-f3e0885724ad")
+		)
+		(pin "2"
+			(uuid "5d01d7cf-1457-4869-b8f2-d375db92a5b3")
 		)
 		(instances
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N22")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -11921,93 +11824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 336.55 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49b47f58-e8f7-45be-bf4f-71a8c26300a4")
-		(property "Reference" "N21"
-			(at 336.55 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 336.296 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 339.09 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 336.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bafc6c22-6fe1-4b23-b048-417fc53d163f")
-		)
-		(pin "3"
-			(uuid "51cef6ab-e482-448a-b7e3-4fc68b7b20eb")
-		)
-		(pin "2"
-			(uuid "959c1b4a-193f-469f-a7f5-82dbeca1a5f1")
-		)
-		(pin "4"
-			(uuid "eeae5b5f-f66f-42cb-9051-b893e9e4319b")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 176.53 35.56 0)
 		(unit 1)
@@ -12041,7 +11857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12084,93 +11900,6 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 443.23 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4b5c3298-51f3-49a5-8af2-ba216eb624bf")
-		(property "Reference" "N28"
-			(at 443.23 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 442.976 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 444.5 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 445.77 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 443.23 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec729007-3ee1-4e3e-9ccb-1b1408fc224d")
-		)
-		(pin "3"
-			(uuid "b0f9d68b-f556-448a-b094-7b2cc0e7e1fc")
-		)
-		(pin "2"
-			(uuid "d962d798-950b-4507-94d7-b9874d42fa66")
-		)
-		(pin "4"
-			(uuid "9affbd09-fe82-4ef1-882b-404973275f8f")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N28")
 					(unit 1)
 				)
 			)
@@ -12442,7 +12171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 267.97 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12491,8 +12220,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 168.91 40.64 0)
+		(lib_id "LED:SK6812MINI-E")
+		(at 123.19 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12500,9 +12229,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4c922fcf-0b74-49ba-a222-7d6eeca3e4ab")
-		(property "Reference" "N10"
-			(at 168.91 52.324 0)
+		(fields_autoplaced yes)
+		(uuid "4ea0047c-cb70-404d-aa62-df30c25e5e8b")
+		(property "Reference" "D36"
+			(at 137.16 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12511,8 +12241,8 @@
 				)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 168.656 54.102 0)
+		(property "Value" "SK6812MINI-E"
+			(at 137.16 36.7598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12521,8 +12251,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 48.26 0)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 124.46 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12533,8 +12263,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 171.45 50.165 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 125.73 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12545,8 +12275,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 168.91 40.64 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 123.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12555,23 +12285,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "08e87783-a828-4c56-aae6-46ffb611b006")
 		)
 		(pin "3"
-			(uuid "93f976d0-4bd6-46a7-a257-596e590df9c9")
-		)
-		(pin "2"
-			(uuid "634a7a5f-c882-4367-9fb5-8d49cbbc74bc")
+			(uuid "639aa031-6090-4744-9db6-5b81130f8913")
 		)
 		(pin "4"
-			(uuid "eb0b6a0c-7fbe-491a-91c3-bdca42c8ac6e")
+			(uuid "dae1d765-a18a-4fc6-9a89-eb232f621c32")
+		)
+		(pin "1"
+			(uuid "cbbc2b0d-270c-45a7-ab88-fc24b45a39c7")
+		)
+		(pin "2"
+			(uuid "25006046-4fc5-4ada-84f8-c705a567fb53")
 		)
 		(instances
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N10")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -12611,7 +12341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 344.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12660,93 +12390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 290.83 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "52c36b25-cd61-4707-9301-8e240706181d")
-		(property "Reference" "N18"
-			(at 290.83 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 290.576 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 293.37 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 290.83 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa1d97d3-78cc-41a5-b55d-1856d29161e8")
-		)
-		(pin "3"
-			(uuid "c61ec542-377a-4bec-b759-0b111abd5fb6")
-		)
-		(pin "2"
-			(uuid "53780b90-bef6-462b-b3e5-78fb3704518a")
-		)
-		(pin "4"
-			(uuid "aad772c0-421e-40b4-a35f-a7dbd30774ab")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 130.81 35.56 0)
 		(unit 1)
@@ -12780,7 +12423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 130.81 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12829,8 +12472,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 245.11 40.64 0)
+		(lib_id "LED:SK6812MINI-E")
+		(at 412.75 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12838,9 +12481,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5a977eb7-23c2-46cd-9d68-7ef2689edd45")
-		(property "Reference" "N15"
-			(at 245.11 52.324 0)
+		(fields_autoplaced yes)
+		(uuid "5560c306-be30-4f8d-bdfb-948697292187")
+		(property "Reference" "D55"
+			(at 426.72 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12849,8 +12493,8 @@
 				)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 244.856 54.102 0)
+		(property "Value" "SK6812MINI-E"
+			(at 426.72 36.7598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12859,8 +12503,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 246.38 48.26 0)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 414.02 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12871,8 +12515,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 247.65 50.165 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 415.29 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12883,8 +12527,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 245.11 40.64 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 412.75 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12893,23 +12537,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "9fa18e11-64fe-430a-965a-3d574039d525")
 		)
 		(pin "3"
-			(uuid "3ddc473e-369b-49d6-a260-ed5f188dd8a6")
-		)
-		(pin "2"
-			(uuid "2e904597-d3f5-419d-9652-e64b04e2bbe6")
+			(uuid "649093d1-2322-41f5-a90f-bb3bb8c084fb")
 		)
 		(pin "4"
-			(uuid "f14b1de8-344c-4259-aeff-c2310430a861")
+			(uuid "4e2bdabe-7db1-4bb7-85b1-bd7cc735b796")
+		)
+		(pin "1"
+			(uuid "d4eebfdf-f494-47a8-a17c-292975dda872")
+		)
+		(pin "2"
+			(uuid "b1cdae20-d6ab-4643-b2d0-a8a3ec9f901b")
 		)
 		(instances
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N15")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -13130,7 +12774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13173,93 +12817,6 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "SW24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 367.03 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6029659e-ccb6-4a64-8914-e3644a76736d")
-		(property "Reference" "N23"
-			(at 367.03 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 366.776 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 369.57 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 367.03 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18f92a1a-318b-4a76-9425-3b30d8059fce")
-		)
-		(pin "3"
-			(uuid "3384a87c-84e5-4f18-b3d2-236a1f918958")
-		)
-		(pin "2"
-			(uuid "ae77127d-a1c0-4d4a-93f2-33ba61888837")
-		)
-		(pin "4"
-			(uuid "69dc5f85-19a7-4c04-8da5-19e9316c8f50")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N23")
 					(unit 1)
 				)
 			)
@@ -13377,7 +12934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 420.37 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13459,7 +13016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 53.34 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13586,93 +13143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 123.19 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "664c8428-d634-4ad5-a64c-70bac6fc07a0")
-		(property "Reference" "N7"
-			(at 123.19 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 122.936 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 125.73 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 123.19 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62493bef-c9e7-4fb6-b900-3dabac23afa9")
-		)
-		(pin "3"
-			(uuid "c1d004f2-0f3c-4e5b-a708-0be77a94829e")
-		)
-		(pin "2"
-			(uuid "0efb1b68-4d41-46de-9606-30c9253f28d6")
-		)
-		(pin "4"
-			(uuid "37d976ea-b6ed-46b2-9afc-5a603fa55e4e")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 218.44 123.19 270)
 		(unit 1)
@@ -13778,6 +13248,182 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 92.71 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "668427a6-5a75-43af-adb4-1b0e3b29f6ea")
+		(property "Reference" "D34"
+			(at 106.68 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 106.68 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 93.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 95.25 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "69cdc9a2-2f8b-404a-9ec3-077cfef489f9")
+		)
+		(pin "4"
+			(uuid "c8388b4c-fe34-4d3d-bdf2-247c2b2cf843")
+		)
+		(pin "1"
+			(uuid "89264429-6b43-45d4-9469-3f05873d409a")
+		)
+		(pin "2"
+			(uuid "6b2d786f-3d4e-470d-af34-9fba4076de56")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 153.67 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67abed97-e96d-4dde-9fd8-bb6e072ae28c")
+		(property "Reference" "D38"
+			(at 167.64 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 167.64 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 154.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 156.21 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 153.67 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "62c4b99f-9280-4bb1-aeb4-261ac48767cc")
+		)
+		(pin "4"
+			(uuid "cdd7eee0-7045-4da9-a26e-9cfde4661ed8")
+		)
+		(pin "1"
+			(uuid "e6ffbfaf-6862-4f98-8821-1096780f58f4")
+		)
+		(pin "2"
+			(uuid "260fabad-da95-4d9d-9e0b-7bdaad12df03")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 121.92 134.62 90)
 		(mirror x)
@@ -13856,6 +13502,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 321.31 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bdaac9d-12ff-4393-b406-fbfaa6bfe93f")
+		(property "Reference" "D49"
+			(at 335.28 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 335.28 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 322.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 323.85 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 321.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "df161d6d-d221-4bb4-8e47-1d084c610e2e")
+		)
+		(pin "4"
+			(uuid "3987660b-5000-4ca7-98ed-d5dbe6ae5a11")
+		)
+		(pin "1"
+			(uuid "45b13ff3-cb93-4537-b4ab-d28770eaf283")
+		)
+		(pin "2"
+			(uuid "7e86a975-ecb3-432c-95c4-890e055a3ce8")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 228.6 91.44 0)
 		(unit 1)
@@ -13887,7 +13621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13969,7 +13703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14018,93 +13752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 306.07 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c8f8aed-c516-4e3b-86e8-b6785238f756")
-		(property "Reference" "N19"
-			(at 306.07 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 305.816 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 308.61 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 306.07 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "834f46a9-2c03-4db1-8ad8-4a0d6a3f62d7")
-		)
-		(pin "3"
-			(uuid "8df54b03-0a3f-465d-8c0e-18f71d22691f")
-		)
-		(pin "2"
-			(uuid "8e4add6a-fd76-4e9c-ae9b-2c619cc3992c")
-		)
-		(pin "4"
-			(uuid "b9538c4c-1ae0-4824-a9cd-22517d1919f8")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RotaryEncoder")
 		(at 29.21 67.31 0)
 		(unit 1)
@@ -14138,7 +13785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7010B"
 			(at 25.4 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -14220,7 +13867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -14300,7 +13947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.84 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14454,6 +14101,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 351.79 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "722f8406-a85c-4825-92f7-7e6936288958")
+		(property "Reference" "D51"
+			(at 365.76 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 365.76 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 353.06 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 354.33 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 351.79 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8b2d7a82-fc43-4c24-9b92-621fc2bd0d07")
+		)
+		(pin "4"
+			(uuid "0b82d4ba-516f-4200-8a52-9e7d69c55fd9")
+		)
+		(pin "1"
+			(uuid "26f9071a-9b65-472d-be27-94c75478ca48")
+		)
+		(pin "2"
+			(uuid "87f26a52-97a8-43cd-b0a4-23524c986a65")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 107.95 0)
 		(unit 1)
@@ -14563,7 +14298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.84 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -14721,7 +14456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 259.08 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14770,6 +14505,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 184.15 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bada94b-b7c5-433f-8b0a-4426f8692b19")
+		(property "Reference" "D40"
+			(at 198.12 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 198.12 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 185.42 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 186.69 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 184.15 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ceb175bd-6c9e-4bc7-8ab6-5f9aaf244510")
+		)
+		(pin "4"
+			(uuid "6339c87e-1366-4828-b607-61750f12de4e")
+		)
+		(pin "1"
+			(uuid "20c85e31-718c-4474-87ff-3768bd210c02")
+		)
+		(pin "2"
+			(uuid "6dec7a50-5d35-46ce-922a-cb5fdf09e4aa")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 82.55 173.99 0)
 		(unit 1)
@@ -14801,7 +14624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 82.55 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14850,93 +14673,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 397.51 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c4e25e4-4ff9-43b9-a557-dc78a1af859d")
-		(property "Reference" "N25"
-			(at 397.51 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 397.256 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 400.05 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 397.51 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2890197b-cf73-4004-97cd-12ee2fd16166")
-		)
-		(pin "3"
-			(uuid "29c5be7e-68a0-4954-834a-b4d67f3648bc")
-		)
-		(pin "2"
-			(uuid "f7a238c6-6210-419a-b4db-1b7a7690b1cc")
-		)
-		(pin "4"
-			(uuid "aa851206-d55a-4ec8-a97a-1f6375716857")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 146.05 35.56 0)
 		(unit 1)
@@ -14970,7 +14706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 146.05 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15050,7 +14786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15093,6 +14829,94 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 214.63 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e9a9a75-8790-45f3-abbe-fd8313fcf5b7")
+		(property "Reference" "D42"
+			(at 228.6 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 228.6 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 215.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 217.17 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 214.63 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2c7e0c3f-1d8e-4c8d-82f3-1cf967a6923f")
+		)
+		(pin "4"
+			(uuid "8add1270-a8ef-4573-b5c1-2432b4edee9c")
+		)
+		(pin "1"
+			(uuid "9a423f82-2c6e-4175-8589-04f656d344a4")
+		)
+		(pin "2"
+			(uuid "30bf71d0-7404-48d3-b2da-960d35bc1d65")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -15204,6 +15028,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 427.99 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ffb64d-6f5d-43a6-b57d-af70ab06b449")
+		(property "Reference" "D56"
+			(at 441.96 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 441.96 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 429.26 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 430.53 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 427.99 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "624ae69c-b889-482b-835f-e9cd4fedaab0")
+		)
+		(pin "4"
+			(uuid "cd454cef-7ada-409b-a39c-8ca9ac02399b")
+		)
+		(pin "1"
+			(uuid "860b4e8b-62fb-4b7f-9cc2-849a9d8bbdef")
+		)
+		(pin "2"
+			(uuid "2e842ff7-6e4f-4553-8252-ae8278b5f2cb")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 172.72 121.92 0)
 		(unit 1)
@@ -15237,7 +15149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15502,7 +15414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.61 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15551,172 +15463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 153.67 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8881cd09-1dd5-4ef2-85e8-9d628666ce7c")
-		(property "Reference" "N9"
-			(at 153.67 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 153.416 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 156.21 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 153.67 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b11a920-8965-49f6-816f-c386fe69b2f9")
-		)
-		(pin "3"
-			(uuid "56eb820d-0033-43ca-b5ae-1a0a1b7244d0")
-		)
-		(pin "2"
-			(uuid "769c8712-e396-42c8-8683-2e70bf7f9d7c")
-		)
-		(pin "4"
-			(uuid "c5e502e6-fa72-41de-9648-a4680b257136")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Ferrite_Small")
-		(at 87.63 157.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a2a3985-46ce-4303-b73c-fcf2f047084c")
-		(property "Reference" "2.2µH1"
-			(at 90.678 161.798 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L_Ferrite_Small"
-			(at 90.678 159.258 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor with ferrite core, small symbol"
-			(at 87.63 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc881643-3ba8-4c70-9807-8fcc8b509278")
-		)
-		(pin "2"
-			(uuid "ce0d4f2d-0a29-4716-bdd5-cdf695b793e5")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "2.2µH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 252.73 35.56 0)
 		(unit 1)
@@ -15750,7 +15496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 252.73 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15832,7 +15578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 359.41 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15914,7 +15660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 24.13 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15963,8 +15709,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 427.99 40.64 0)
+		(lib_id "LED:SK6812MINI-E")
+		(at 336.55 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15972,9 +15718,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8efd2003-c7d0-477d-906f-57f7327eccbc")
-		(property "Reference" "N27"
-			(at 427.99 52.324 0)
+		(fields_autoplaced yes)
+		(uuid "8b666f4f-ad84-4bc8-85f7-5cfa659d9067")
+		(property "Reference" "D50"
+			(at 350.52 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15983,8 +15730,8 @@
 				)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 427.736 54.102 0)
+		(property "Value" "SK6812MINI-E"
+			(at 350.52 36.7598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15993,8 +15740,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 429.26 48.26 0)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 337.82 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16005,8 +15752,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 430.53 50.165 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 339.09 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16017,8 +15764,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 427.99 40.64 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 336.55 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16027,23 +15774,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "01ee7c31-866f-4af3-99f5-695bf68b8f25")
 		)
 		(pin "3"
-			(uuid "f5b8930d-5892-42a9-8d95-aed3fbe449a1")
-		)
-		(pin "2"
-			(uuid "dedd3b07-a01b-49aa-ba52-a5246dc01c60")
+			(uuid "e4863f5e-b7b3-4573-8973-ba2d9dedb5ed")
 		)
 		(pin "4"
-			(uuid "5279c4a1-5f0a-4b87-8ed3-e70b30c52cf9")
+			(uuid "53f5d902-d2d9-4b0e-b53f-3ce818545014")
+		)
+		(pin "1"
+			(uuid "2828448b-f1b6-4367-968a-4df134a4f268")
+		)
+		(pin "2"
+			(uuid "76950b87-1738-466a-8719-599724b2e67d")
 		)
 		(instances
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N27")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -16291,7 +16038,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 228.6 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16340,6 +16087,182 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 275.59 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9377c743-6c17-4074-bf3e-aedf3648e788")
+		(property "Reference" "D46"
+			(at 289.56 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 289.56 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 276.86 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 278.13 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 275.59 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4d15be0d-caa4-46fb-91cc-8599615e459c")
+		)
+		(pin "4"
+			(uuid "f41dd5ac-918e-4a72-b702-c2907c6d0f29")
+		)
+		(pin "1"
+			(uuid "1fca988a-7e3a-408a-b34c-cc0d213cc109")
+		)
+		(pin "2"
+			(uuid "b17291d9-fe98-4df2-ac31-f5839bd7a648")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 62.23 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95785d49-b826-484d-97ed-a45786382aa4")
+		(property "Reference" "D32"
+			(at 76.2 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 76.2 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 64.77 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 62.23 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "63b63403-1d1a-45f2-bbba-6cac0fa08140")
+		)
+		(pin "4"
+			(uuid "1342714d-bdac-4d17-88ee-99c6481751ac")
+		)
+		(pin "1"
+			(uuid "e676e064-06a3-4c16-a603-517e980898b7")
+		)
+		(pin "2"
+			(uuid "b3056a71-9db7-4163-99be-7ebec8b10ad9")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 243.84 104.14 0)
 		(unit 1)
@@ -16371,7 +16294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.84 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -16451,7 +16374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16533,7 +16456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16576,93 +16499,6 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 412.75 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98d7e74f-a72b-454b-b721-a5a2fe3713fe")
-		(property "Reference" "N26"
-			(at 412.75 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 412.496 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 414.02 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 415.29 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 412.75 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "756a7932-2a74-4f8f-bb1d-d05f0d067638")
-		)
-		(pin "3"
-			(uuid "2f3b56e8-1705-415c-8256-52110687daa7")
-		)
-		(pin "2"
-			(uuid "81bf8e61-85a1-4007-8a06-d67da5530d8f")
-		)
-		(pin "4"
-			(uuid "5c728212-9520-406b-83a3-f0c21f87d025")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N26")
 					(unit 1)
 				)
 			)
@@ -16805,7 +16641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 259.08 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -17037,6 +16873,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 382.27 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fc719c6-e327-4b6d-97a7-48a0ce179908")
+		(property "Reference" "D53"
+			(at 396.24 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 396.24 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 383.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 384.81 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 382.27 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "24fa1735-cefb-4873-91ea-d06710d39e5a")
+		)
+		(pin "4"
+			(uuid "82b0abe3-883f-44b9-92af-177a63f7f366")
+		)
+		(pin "1"
+			(uuid "640c0e38-76c2-4ada-8dc6-45f56dcfeed7")
+		)
+		(pin "2"
+			(uuid "d3af70ca-5ba1-4756-83f0-626b401085d3")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 264.16 85.09 270)
 		(unit 1)
@@ -17175,7 +17099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 207.01 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17224,6 +17148,173 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 87.63 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a48f9e05-5a53-474b-8524-49e4ccf2909a")
+		(property "Reference" "2.2µH1"
+			(at 88.138 162.306 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Small"
+			(at 88.392 160.274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
+			(at 87.63 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 87.63 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9504cb43-3545-4c4e-b008-a0cba2ba6306")
+		)
+		(pin "2"
+			(uuid "bf589855-20a1-451b-a0df-e665203e6145")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "2.2µH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 306.07 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e08f62-fa3a-4625-be4c-ba68a3294cb6")
+		(property "Reference" "D48"
+			(at 320.04 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 320.04 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 307.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 308.61 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 306.07 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "26af93e2-ca88-4928-9bc3-76e0ce13e320")
+		)
+		(pin "4"
+			(uuid "4b577f87-cdf7-4319-80a9-09587dc5bd1d")
+		)
+		(pin "1"
+			(uuid "b2a04987-32aa-4da1-bbff-e2098bf1507e")
+		)
+		(pin "2"
+			(uuid "0d904e17-65dd-4205-a1db-a83587f2c42e")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 85.09 35.56 0)
 		(unit 1)
@@ -17257,7 +17348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 85.09 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17300,93 +17391,6 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 275.59 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a743ecdc-5b10-4029-a2fa-f0911f9ab046")
-		(property "Reference" "N17"
-			(at 275.59 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 275.336 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 278.13 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 275.59 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0a27e24-e9e0-4f33-abbe-15b794567111")
-		)
-		(pin "3"
-			(uuid "5104bbce-f172-47b1-82c6-042daed9bc3d")
-		)
-		(pin "2"
-			(uuid "1e3cf749-edeb-4cde-bfcf-5c6eb7a918f0")
-		)
-		(pin "4"
-			(uuid "11c75c8e-9c08-4e61-aa23-88ac86b17e02")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N17")
 					(unit 1)
 				)
 			)
@@ -17498,93 +17502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 214.63 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab3ca044-d9d4-4647-9117-bdc09074ddda")
-		(property "Reference" "N13"
-			(at 214.63 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 214.376 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 217.17 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 214.63 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db1b5649-4502-462a-9a42-fa07450cd76d")
-		)
-		(pin "3"
-			(uuid "52402684-b23d-43cf-a0f0-24147f63cd9e")
-		)
-		(pin "2"
-			(uuid "1f9c7d18-573e-414b-88b7-46314363520d")
-		)
-		(pin "4"
-			(uuid "7aef8e62-7089-4dc6-8130-b1adfb3a48d5")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 213.36 104.14 0)
 		(unit 1)
@@ -17616,7 +17533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17698,7 +17615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17741,93 +17658,6 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 46.99 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af151805-c0c5-4a77-bd83-71008851d0a9")
-		(property "Reference" "N2"
-			(at 46.99 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 46.736 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 49.53 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 46.99 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aca66079-f5a2-48dd-bf94-080cdd0bbefd")
-		)
-		(pin "3"
-			(uuid "e05a66ac-f834-4a3c-8504-6c9cc93865e4")
-		)
-		(pin "2"
-			(uuid "127edc4b-6aeb-415b-afdd-c61eb13ed11b")
-		)
-		(pin "4"
-			(uuid "d6631e26-0de8-41e2-87c5-24d7737ca1c6")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N2")
 					(unit 1)
 				)
 			)
@@ -18075,7 +17905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 259.08 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18124,93 +17954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 229.87 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b513ff31-4de1-4d8b-98f8-b052993ec15e")
-		(property "Reference" "N14"
-			(at 229.87 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 229.616 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 232.41 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 229.87 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e484938-55c3-4e50-be65-b1e60f3dd0f1")
-		)
-		(pin "3"
-			(uuid "7de791e1-bea1-4035-8c6d-eafbae385025")
-		)
-		(pin "2"
-			(uuid "692129bb-a94d-4099-a494-4008321dbf49")
-		)
-		(pin "4"
-			(uuid "74f0d945-6f91-4f03-95d2-cc23454374ee")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 237.49 35.56 0)
 		(unit 1)
@@ -18244,7 +17987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 237.49 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -18293,8 +18036,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 138.43 40.64 0)
+		(lib_id "LED:SK6812MINI-E")
+		(at 443.23 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18302,9 +18045,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b7ffc7a9-a671-413b-afb3-d67d03fedb34")
-		(property "Reference" "N8"
-			(at 138.43 52.324 0)
+		(fields_autoplaced yes)
+		(uuid "b896fc2b-f6f8-4f66-b585-4f9d61fffa95")
+		(property "Reference" "D57"
+			(at 457.2 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18313,8 +18057,8 @@
 				)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 138.176 54.102 0)
+		(property "Value" "SK6812MINI-E"
+			(at 457.2 36.7598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18323,8 +18067,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 48.26 0)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 444.5 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18335,8 +18079,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 140.97 50.165 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 445.77 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18347,8 +18091,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 138.43 40.64 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 443.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18357,23 +18101,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "aa3518a9-17f6-45fc-bf5a-b7c32b27d487")
 		)
 		(pin "3"
-			(uuid "5d1c9abe-a7de-428b-8d10-ebebc5f0b59c")
-		)
-		(pin "2"
-			(uuid "b0258280-1bf2-4f02-8bf9-872338c929c4")
+			(uuid "097cd7bc-ef55-47c4-8148-20ca911c25d2")
 		)
 		(pin "4"
-			(uuid "36860e92-49b1-4913-b2c2-6b75201f247f")
+			(uuid "653ff601-1ecc-449e-8c1b-b353031d785a")
+		)
+		(pin "1"
+			(uuid "88dfdc4c-204a-46f6-a489-bf84ca4187f1")
+		)
+		(pin "2"
+			(uuid "fb9dc224-dc04-4ef8-ae8d-2777ee28160b")
 		)
 		(instances
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N8")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -18411,7 +18155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 121.92 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18460,93 +18204,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 62.23 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb53b014-f109-4fa7-849b-05deacf7960c")
-		(property "Reference" "N3"
-			(at 62.23 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 61.976 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 64.77 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 62.23 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "325d019c-c67e-4a57-ac54-c01e59008701")
-		)
-		(pin "3"
-			(uuid "b3090cf3-5fb1-42d4-8cb5-71d82cdf3485")
-		)
-		(pin "2"
-			(uuid "fa52305a-4f15-413f-a221-406efc26422d")
-		)
-		(pin "4"
-			(uuid "47249a69-7267-431a-8743-01f47b754061")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 283.21 35.56 0)
 		(unit 1)
@@ -18580,7 +18237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 283.21 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -18924,7 +18581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -19150,6 +18807,94 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 31.75 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76df83b-6b03-4889-9fc5-a5a32520f83c")
+		(property "Reference" "D2"
+			(at 45.72 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 45.72 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 33.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 34.29 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 31.75 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4d31e862-d57b-407b-9947-7ed22fb3e6e0")
+		)
+		(pin "2"
+			(uuid "0c87fb29-cddd-4fc2-bd47-fca5eed1e351")
+		)
+		(pin "1"
+			(uuid "422c597d-1ec8-4b03-81bd-95e42def00e0")
+		)
+		(pin "3"
+			(uuid "35e8bd56-b8ee-45a1-8fce-a2c502950932")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -19627,6 +19372,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 229.87 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce01b872-14ff-4c60-95fa-79ce305f0251")
+		(property "Reference" "D43"
+			(at 243.84 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 243.84 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 231.14 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 232.41 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 229.87 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "61a9e74e-7eb9-4464-ba25-f5bf963f268a")
+		)
+		(pin "4"
+			(uuid "daab98f7-bf6d-4f89-b4fa-23b15cac1cd7")
+		)
+		(pin "1"
+			(uuid "08d718a0-14db-442d-918f-b50244ef647d")
+		)
+		(pin "2"
+			(uuid "5c538ade-cec8-4010-a29f-4eb94da08307")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 66.04 180)
 		(unit 1)
@@ -19815,7 +19648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -19918,7 +19751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -19998,7 +19831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 259.08 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -20041,6 +19874,94 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 77.47 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d95b08af-45de-4bc3-a370-cde40e79750d")
+		(property "Reference" "D33"
+			(at 91.44 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 91.44 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 78.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 80.01 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "11f5b564-b930-43ef-baab-5a01c9700a71")
+		)
+		(pin "4"
+			(uuid "e4af58d9-1841-4f96-824b-e9229c401960")
+		)
+		(pin "1"
+			(uuid "e418de7c-628e-4b3e-b4c1-37c3a011928e")
+		)
+		(pin "2"
+			(uuid "0c0a62b5-196b-41c2-93f6-c0deed51e255")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -20183,7 +20104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.84 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20342,7 +20263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 21.59 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -20422,7 +20343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 259.08 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -20465,6 +20386,94 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 199.39 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e005639f-cd64-41b7-a112-b8f8e1bddeab")
+		(property "Reference" "D41"
+			(at 213.36 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 213.36 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 200.66 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 201.93 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 199.39 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "83f4044a-4b27-4b80-85e0-81fce8343045")
+		)
+		(pin "4"
+			(uuid "5e0c8b63-d13b-4fb5-9c3a-a9b68f9e1ad3")
+		)
+		(pin "1"
+			(uuid "dbbff6bc-b6c7-4543-aa2e-865fd398197a")
+		)
+		(pin "2"
+			(uuid "d9b17ade-b1d7-4144-87f9-05d1d6e385dd")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -20543,93 +20552,6 @@
 			(project "musicboard"
 				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 31.75 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e6cb1d69-aa95-4246-9cc9-55abd1565b5f")
-		(property "Reference" "N1"
-			(at 31.75 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 31.496 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 34.29 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 31.75 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aaf7defb-c1d5-4066-9d9c-3d2d99379c30")
-		)
-		(pin "3"
-			(uuid "ade879c3-620c-4f1b-8b87-68b1d82e6e8d")
-		)
-		(pin "2"
-			(uuid "dfeddcbc-ccc5-4bd2-81c4-7374fd74b2a0")
-		)
-		(pin "4"
-			(uuid "0a1d570f-d69a-4551-90ef-30005bc09847")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N1")
 					(unit 1)
 				)
 			)
@@ -20850,7 +20772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 228.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -21037,7 +20959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 161.29 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21086,93 +21008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 382.27 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ead7e8ed-abad-476b-9075-ecdb34122f16")
-		(property "Reference" "N24"
-			(at 382.27 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 382.016 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 383.54 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 384.81 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 382.27 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39997618-7410-4fef-af9d-ce2db7ff3d35")
-		)
-		(pin "3"
-			(uuid "8e9629dd-2b62-4b77-b2b2-80b7a2b7a32c")
-		)
-		(pin "2"
-			(uuid "b80fe037-cee1-437f-a466-4ca4cc9f7531")
-		)
-		(pin "4"
-			(uuid "44791186-1710-428b-99c3-3f81244a6c4c")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 166.37 68.58 0)
 		(mirror y)
@@ -21206,7 +21041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21364,7 +21199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 228.6 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -21413,6 +21248,94 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 397.51 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef54035-9eb9-4fe9-96df-ff9966e28e23")
+		(property "Reference" "D54"
+			(at 411.48 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 411.48 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 398.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 400.05 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 397.51 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "79597e6a-26c9-4bfe-b307-1dde20ea34e1")
+		)
+		(pin "4"
+			(uuid "12eac527-f9fe-4102-93eb-031edf57bf8f")
+		)
+		(pin "1"
+			(uuid "457a3592-2194-445f-acbd-c22bed506dbc")
+		)
+		(pin "2"
+			(uuid "d68f7c3b-cf29-410f-ab3b-990b03ad588f")
+		)
+		(instances
+			(project "musicboard"
+				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 213.36 116.84 0)
 		(unit 1)
@@ -21444,7 +21367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -21526,7 +21449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 389.89 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21608,7 +21531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 222.25 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21688,7 +21611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 213.36 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -21737,93 +21660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 77.47 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f40c38a7-cac6-45aa-99ec-37287e448398")
-		(property "Reference" "N4"
-			(at 77.47 52.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 77.216 54.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 80.01 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 77.47 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "398bfd2b-5a32-4bd9-8aa0-7b91718ca686")
-		)
-		(pin "3"
-			(uuid "d34dba96-7791-4be4-9544-ec9845c9a48d")
-		)
-		(pin "2"
-			(uuid "cb229e27-c71d-4a78-a862-e46892d62698")
-		)
-		(pin "4"
-			(uuid "0f2b6cd4-7d27-4832-abeb-1d8491bf7204")
-		)
-		(instances
-			(project "musicboard"
-				(path "/6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
-					(reference "N4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "music2:Waveshare_ESP32_S3_Mini_Zero")
 		(at 138.43 151.13 0)
 		(unit 1)
@@ -21855,7 +21691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "music:Waveshare ESP32-S3-Zero"
 			(at 59.69 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -22096,7 +21932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 405.13 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22386,7 +22222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 259.08 73.66 0)
 			(hide yes)
 			(show_name no)

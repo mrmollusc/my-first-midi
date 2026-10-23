@@ -665,7 +665,7 @@
         "uuid": "6fd5b2b1-3e7d-4ee5-99a6-f4f1fd305a2b"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-21,10k1-3,10kΩ1-2,2.2µH1,BT1,C1-32,D1-41,ESP32_S1,J1-2,L1,N13-28,R1-4,SW1-31,U1-2",
+    "used_designators": "#FLG1-4,#PWR1-21,10k1-3,10kΩ1-2,2.2µH1,BT1,C1-32,D1-57,ESP32_S1,J1-2,L1,N13-28,R1-4,SW1-31,U1-2",
     "variants": []
   },
   "sheets": [
